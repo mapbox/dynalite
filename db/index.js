@@ -6,7 +6,7 @@ var crypto = require('crypto'),
     Lock = require('lock'),
     Big = require('big.js')
 
-exports.MAX_SIZE = 409600
+exports.MAX_SIZE = 1024 * 1024
 exports.create = create
 exports.lazy = lazyStream
 exports.validateKey = validateKey
